@@ -233,7 +233,7 @@ public class HistoryDetails extends AppCompatActivity {
 
     private void setDetails(JSONArray response) {
         if (response != null && response.length() > 0) {
-            Glide.with(activity).load(response.optJSONObject(0).optString("static_map")).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(tripImg);
+//            Glide.with(activity).load(response.optJSONObject(0).optString("static_map")).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(tripImg);
             if (!response.optJSONObject(0).optString("payment").equalsIgnoreCase("null")) {
                 Log.e("History Details", "onResponse: Currency" + SharedHelper.getKey(context, "currency"));
                 //tripAmount.setText(SharedHelper.getKey(context, "currency") + "" + response.optJSONObject(0).optJSONObject("payment").optString("total"));
@@ -321,7 +321,7 @@ public class HistoryDetails extends AppCompatActivity {
 
                 utils.print("Get Trip details", response.toString());
                 if (response != null && response.length() > 0) {
-                    Glide.with(activity).load(response.optJSONObject(0).optString("static_map")).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(tripImg);
+//                    Glide.with(activity).load(response.optJSONObject(0).optString("static_map")).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(tripImg);
                     if (!response.optJSONObject(0).optString("payment").equalsIgnoreCase("null")) {
                         Log.e("History Details", "onResponse: Currency" + SharedHelper.getKey(context, "currency"));
                         tripAmount.setText(SharedHelper.getKey(context, "currency") + "" + response.optJSONObject(0).optJSONObject("payment").optString("total"));

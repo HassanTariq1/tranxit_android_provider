@@ -292,7 +292,7 @@ public class OnGoingTrips extends Fragment {
 
         @Override
         public void onBindViewHolder(UpcomingsAdapter.MyViewHolder holder, final int position) {
-            Glide.with(activity).load(jsonArray.optJSONObject(position).optString("static_map")).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(holder.tripImg);
+     //       Glide.with(activity).load(jsonArray.optJSONObject(position).optString("static_map")).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(holder.tripImg);
             try {
                 if (!jsonArray.optJSONObject(position).optString("schedule_at", "").isEmpty()) {
                     String form = jsonArray.optJSONObject(position).optString("schedule_at");
@@ -311,8 +311,8 @@ public class OnGoingTrips extends Fragment {
                 if (serviceObj != null) {
                     holder.car_name.setText(serviceObj.optString("name"));
                     //holder.tripAmount.setText(SharedHelper.getKey(context, "currency")+serviceObj.optString("price"));
-                    Glide.with(activity).load(serviceObj.optString("image"))
-                            .placeholder(R.drawable.car_select).error(R.drawable.car_select).dontAnimate().into(holder.driver_image);
+//                    Glide.with(activity).load(serviceObj.optString("image"))
+//                            .placeholder(R.drawable.car_select).error(R.drawable.car_select).dontAnimate().into(holder.driver_image);
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
