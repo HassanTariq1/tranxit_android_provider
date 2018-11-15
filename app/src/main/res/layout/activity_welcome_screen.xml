@@ -101,7 +101,6 @@
             android:gravity="center"
             android:layout_marginTop="@dimen/_5sdp"
             android:text="@string/or_connect_with_social_media"
-            android:textColor="@color/wallet_holo_blue_light"
             android:textSize="@dimen/_14sdp"
             android:visibility="visible" />
 
