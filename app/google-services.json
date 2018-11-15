@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:770330255573:android:7a3f2e2191beb113",
         "android_client_info": {
-          "package_name": "com.tranxit.app"
+          "package_name": "com.tranxitpro.provider"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "770330255573-2k4ab6qtvuh448732928puecvgjvsvq2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tranxit.app",
+            "package_name": "com.tranxitpro.provider",
             "certificate_hash": "498961505d96e1c7cf29029221ea0701c1c804d3"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "770330255573-fugho96u69fq6h0oi5iv9cg3rth6ppi5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tranxit.app",
+            "package_name": "com.tranxitpro.provider",
             "certificate_hash": "befa830ff57f03dffd4ddf8355d7251cb8ed9c51"
           }
         },
@@ -38,7 +38,7 @@
           "client_id": "770330255573-2fqthebqcflmjj0q5hg96g8du2ten0nj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tranxit.app",
+            "package_name": "com.tranxitpro.provider",
             "certificate_hash": "908cae55c64539da7a9b3bc880105737b587282b"
           }
         },
@@ -46,7 +46,7 @@
           "client_id": "770330255573-4u2p8mremtd45l7u0tchi9e0jaormqqq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tranxit.app",
+            "package_name": "com.tranxitpro.provider",
             "certificate_hash": "affa1f061f7fd660e056aeb053e80438ccf95d6e"
           }
         },
@@ -154,7 +154,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:770330255573:android:5e0a3e477c9e0e5a",
         "android_client_info": {
-          "package_name": "com.tranxitpro.app"
+          "package_name": "com.tranxitpro.provider"
         }
       },
       "oauth_client": [
@@ -166,7 +166,7 @@
           "client_id": "770330255573-fn3s4g1sk5ubcp6uvftlt8a0fh7k7bqb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tranxitpro.app",
+            "package_name": "com.tranxitpro.provider",
             "certificate_hash": "befa830ff57f03dffd4ddf8355d7251cb8ed9c51"
           }
         },
@@ -174,7 +174,7 @@
           "client_id": "770330255573-ahr5t9nd3k2v6lh8m8h85gc8opjtjuq0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tranxitpro.app",
+            "package_name": "com.tranxitpro.provider",
             "certificate_hash": "498961505d96e1c7cf29029221ea0701c1c804d3"
           }
         },
